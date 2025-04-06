@@ -24,9 +24,9 @@ client = weaviate.connect_to_weaviate_cloud(
 )
 
 # Check if collection exists before creating it
-if "Mock_Menu" not in client.collections.list_all():
+if "Hoch_Menu_Test" not in client.collections.list_all():
     client.collections.create(
-        "Mock_Menu",
+        "Hoch_Menu_Test",
         vectorizer_config=[
             Configure.NamedVectors.text2vec_openai(
                 name="menu_item_vector",
@@ -39,32 +39,26 @@ if "Mock_Menu" not in client.collections.list_all():
     )
 
 # reading in the json file and adding it to the weaviate db
-with open('mock_menu_data.json', 'r') as f:
+with open('hoch_food_items.json', 'r') as f:
     menu_data = json.load(f)
 
-collection = client.collections.get("Mock_Menu")
+collection = client.collections.get("Hoch_Menu_Test")
 
 with collection.batch.dynamic() as batch:
     for src_obj in menu_data:
-        # Create a list of labels extracted from each item
-        labels = []
-        for item in src_obj["items"]:
-            # Here, we're taking 'category' and 'meal_station' as labels.
-            labels.append({
-                "name": item["name"],
-                "category": item["category"],
-                "meal_station": item["meal_station"],
-                "nutrition": item["nutrition"]
-            })
-        
         # Add the object with the original items and the extracted labels.
+
         batch.add_object(
             properties={
-                "date": src_obj["date"],
                 "dining_hall": src_obj["dining_hall"],
+                "date": src_obj["date"],
+                "day": src_obj["day"],
                 "meal": src_obj["meal"],
-                "items": src_obj["items"],
-                "labels": labels  # New field with extracted labels
+                "station": src_obj["station"],
+                "name": src_obj["name"],    
+                "cal": src_obj["cal"],
+                "allergens": src_obj["allergens"],
+                "diets": src_obj["diets"]   
             }
         )
         

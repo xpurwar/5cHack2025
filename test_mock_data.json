@@ -1,0 +1,58 @@
+[
+            {
+                "name": "Veggie Omelette",
+                "date": "2025-03-28",
+                "dining_hall": "Frary",
+                "meal": "Breakfast",
+                "category": "vegetarian",
+                "meal_station": "Expo Station",
+                "nutrition": {
+                    "calories": 149,
+                    "protein": 10,
+                    "carbs": 14,
+                    "fat": 4
+                }
+            },
+            {
+                "name": "Fresh Fruit Salad",
+                "date": "2025-03-28",
+                "dining_hall": "Frary",
+                "meal": "Breakfast",
+                "category": "vegan",
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 100,
+                    "protein": 4,
+                    "carbs": 12,
+                    "fat": 3
+                }
+            }, 
+            {
+                "name": "Grilled Chicken Wrap",
+                "date": "2025-03-28",
+                "dining_hall": "Collins",
+                "meal": "Lunch",
+                "category": "halal",
+                "meal_station": "Grill Station",
+                "nutrition": {
+                    "calories": 420,
+                    "protein": 32,
+                    "carbs": 35,
+                    "fat": 10
+                }
+            },
+            {
+                "name": "Quinoa Salad",
+                "date": "2025-03-28",
+                "dining_hall": "Collins",
+                "meal": "Lunch",
+                "category": "vegan",
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 100,
+                    "protein": 4,
+                    "carbs": 12,
+                    "fat": 3
+                }           
+            }
+        ]
