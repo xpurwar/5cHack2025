@@ -1,256 +1,407 @@
 [
     {
-        "date": "2025-03-25",
+        "date": "2025-03-28",
+        "dining_hall": "Frary",
+        "meal": "Breakfast",
+        "items": [
+            {
+                "name": "Veggie Omelette",
+                "category": "vegetarian",
+                "meal_station": "Expo Station",
+                "nutrition": {
+                    "calories": 149,
+                    "protein": 7,
+                    "carbs": 14,
+                    "fat": 4
+                }
+            },
+            {
+                "name": "Fresh Fruit Salad",
+                "category": "vegan",
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 100,
+                    "protein": 4,
+                    "carbs": 12,
+                    "fat": 3
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
         "dining_hall": "Collins",
+        "meal": "Lunch",
+        "items": [
+            {
+                "name": "Grilled Chicken Wrap",
+                "category": "halal",
+                "meal_station": "Grill Station",
+                "nutrition": {
+                    "calories": 420,
+                    "protein": 32,
+                    "carbs": 35,
+                    "fat": 10
+                }
+            },
+            {
+                "name": "Quinoa Salad",
+                "category": "vegan",
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 210,
+                    "protein": 8,
+                    "carbs": 28,
+                    "fat": 5
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Hoch",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Pesto Pasta",
+                "category": "vegetarian",
+                "meal_station": "Mainline",
+                "nutrition": {
+                    "calories": 550,
+                    "protein": 18,
+                    "carbs": 75,
+                    "fat": 20
+                }
+            },
+            {
+                "name": "Mixed Greens Soup",
+                "category": "gluten-free",
+                "meal_station": "Soup Station",
+                "nutrition": {
+                    "calories": 180,
+                    "protein": 6,
+                    "carbs": 20,
+                    "fat": 8
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Oldenborg",
+        "meal": "Lunch",
+        "items": [
+            {
+                "name": "Turkey Panini",
+                "category": "halal",
+                "meal_station": "Panini Station",
+                "nutrition": {
+                    "calories": 480,
+                    "protein": 28,
+                    "carbs": 50,
+                    "fat": 16
+                }
+            },
+            {
+                "name": "Caprese Salad",
+                "category": "vegetarian",
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 250,
+                    "protein": 10,
+                    "carbs": 18,
+                    "fat": 14
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Frank",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Pizza Margherita",
+                "category": "vegetarian",
+                "meal_station": "Pizza",
+                "nutrition": {
+                    "calories": 680,
+                    "protein": 22,
+                    "carbs": 90,
+                    "fat": 24
+                }
+            },
+            {
+                "name": "Grilled Steak",
+                "category": "halal",
+                "meal_station": "Grill Station",
+                "nutrition": {
+                    "calories": 750,
+                    "protein": 45,
+                    "carbs": 8,
+                    "fat": 50
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Malott",
         "meal": "Breakfast",
         "items": [
             {
                 "name": "Avocado Toast",
-                "category": "vegetarian",
-                "nutrition": { "calories": 300 }
+                "category": "vegan",
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 320,
+                    "protein": 7,
+                    "carbs": 40,
+                    "fat": 15
+                }
             },
             {
                 "name": "Fruit Smoothie",
-                "category": "vegan",
-                "nutrition": { "calories": 150 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-25",
-        "dining_hall": "Hoch",
-        "meal": "Lunch",
-        "items": [
-            {
-                "name": "Grilled Chicken Sandwich",
-                "category": "halal",
-                "nutrition": { "calories": 450 }
-            },
-            {
-                "name": "Garden Salad",
-                "category": "vegetarian",
-                "nutrition": { "calories": 120 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-25",
-        "dining_hall": "Frary",
-        "meal": "Dinner",
-        "items": [
-            {
-                "name": "Tofu Stir Fry",
-                "category": "vegan",
-                "nutrition": { "calories": 350 }
-            },
-            {
-                "name": "Quinoa Salad",
                 "category": "gluten-free",
-                "nutrition": { "calories": 300 }
+                "meal_station": "Soup Station",
+                "nutrition": {
+                    "calories": 180,
+                    "protein": 5,
+                    "carbs": 35,
+                    "fat": 2
+                }
             }
         ]
     },
     {
-        "date": "2025-03-26",
-        "dining_hall": "Oldenborg",
-        "meal": "Breakfast",
-        "items": [
-            {
-                "name": "Egg Muffin",
-                "category": "vegetarian",
-                "nutrition": { "calories": 320 }
-            },
-            {
-                "name": "Oatmeal",
-                "category": "gluten-free",
-                "nutrition": { "calories": 280 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-26",
-        "dining_hall": "Frank",
-        "meal": "Lunch",
-        "items": [
-            {
-                "name": "Falafel Wrap",
-                "category": "halal",
-                "nutrition": { "calories": 400 }
-            },
-            {
-                "name": "Hummus Plate",
-                "category": "vegan",
-                "nutrition": { "calories": 200 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-26",
-        "dining_hall": "Malott",
-        "meal": "Dinner",
-        "items": [
-            {
-                "name": "Pasta Primavera",
-                "category": "vegetarian",
-                "nutrition": { "calories": 480 }
-            },
-            {
-                "name": "Grilled Salmon",
-                "category": "halal",
-                "nutrition": { "calories": 500 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-27",
+        "date": "2025-03-28",
         "dining_hall": "McConnel",
         "meal": "Breakfast",
         "items": [
             {
-                "name": "Smoothie Bowl",
-                "category": "vegan",
-                "nutrition": { "calories": 290 }
+                "name": "Oatmeal with Berries",
+                "category": "vegetarian",
+                "meal_station": "Global",
+                "nutrition": {
+                    "calories": 280,
+                    "protein": 9,
+                    "carbs": 50,
+                    "fat": 4
+                }
             },
             {
-                "name": "Whole Grain Toast",
-                "category": "gluten-free",
-                "nutrition": { "calories": 140 }
+                "name": "Scrambled Eggs",
+                "category": "halal",
+                "meal_station": "Hot Cereal",
+                "nutrition": {
+                    "calories": 300,
+                    "protein": 18,
+                    "carbs": 4,
+                    "fat": 20
+                }
             }
         ]
     },
     {
-        "date": "2025-03-27",
+        "date": "2025-03-29",
+        "dining_hall": "Frary",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Stir-Fried Tofu",
+                "category": "vegan",
+                "meal_station": "Grill Station",
+                "nutrition": {
+                    "calories": 350,
+                    "protein": 18,
+                    "carbs": 25,
+                    "fat": 20
+                }
+            },
+            {
+                "name": "Brown Rice",
+                "category": "gluten-free",
+                "meal_station": "Mainline",
+                "nutrition": {
+                    "calories": 220,
+                    "protein": 5,
+                    "carbs": 45,
+                    "fat": 2
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-29",
         "dining_hall": "Collins",
-        "meal": "Lunch",
+        "meal": "Dinner",
         "items": [
             {
                 "name": "Veggie Burger",
                 "category": "vegan",
-                "nutrition": { "calories": 420 }
+                "meal_station": "Grill Station",
+                "nutrition": {
+                    "calories": 420,
+                    "protein": 20,
+                    "carbs": 50,
+                    "fat": 12
+                }
             },
             {
-                "name": "Side Salad",
-                "category": "vegetarian",
-                "nutrition": { "calories": 110 }
+                "name": "Sweet Potato Fries",
+                "category": "gluten-free",
+                "meal_station": "Expo Station",
+                "nutrition": {
+                    "calories": 300,
+                    "protein": 3,
+                    "carbs": 40,
+                    "fat": 14
+                }
             }
         ]
     },
     {
-        "date": "2025-03-27",
+        "date": "2025-03-29",
         "dining_hall": "Hoch",
-        "meal": "Dinner",
+        "meal": "Lunch",
         "items": [
             {
-                "name": "Lentil Curry",
+                "name": "Beef Burrito",
+                "category": "halal",
+                "meal_station": "Mainline",
+                "nutrition": {
+                    "calories": 600,
+                    "protein": 35,
+                    "carbs": 65,
+                    "fat": 20
+                }
+            },
+            {
+                "name": "Black Bean Salad",
                 "category": "vegan",
-                "nutrition": { "calories": 360 }
-            },
-            {
-                "name": "Rice Pilaf",
-                "category": "gluten-free",
-                "nutrition": { "calories": 250 }
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 250,
+                    "protein": 10,
+                    "carbs": 35,
+                    "fat": 8
+                }
             }
         ]
     },
     {
-        "date": "2025-03-28",
-        "dining_hall": "Frary",
-        "meal": "Breakfast",
-        "items": [
-            {
-                "name": "Pancakes",
-                "category": "vegetarian",
-                "nutrition": { "calories": 600 }
-            },
-            {
-                "name": "Fruit Parfait",
-                "category": "gluten-free",
-                "nutrition": { "calories": 280 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-28",
+        "date": "2025-03-29",
         "dining_hall": "Oldenborg",
         "meal": "Lunch",
         "items": [
             {
-                "name": "Chicken Salad",
+                "name": "Chicken Panini",
                 "category": "halal",
-                "nutrition": { "calories": 450 }
+                "meal_station": "Panini Station",
+                "nutrition": {
+                    "calories": 480,
+                    "protein": 28,
+                    "carbs": 50,
+                    "fat": 16
+                }
             },
             {
-                "name": "Quinoa Bowl",
-                "category": "vegan",
-                "nutrition": { "calories": 320 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-28",
-        "dining_hall": "Frank",
-        "meal": "Dinner",
-        "items": [
-            {
-                "name": "Spaghetti Marinara",
+                "name": "Caprese Salad",
                 "category": "vegetarian",
-                "nutrition": { "calories": 500 }
-            },
-            {
-                "name": "Garlic Bread",
-                "category": "gluten-free",
-                "nutrition": { "calories": 250 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-29",
-        "dining_hall": "Malott",
-        "meal": "Brunch",
-        "items": [
-            {
-                "name": "Vegan Tofu Benedict",
-                "category": "vegan",
-                "nutrition": { "calories": 450 }
-            },
-            {
-                "name": "Avocado Toast",
-                "category": "gluten-free",
-                "nutrition": { "calories": 300 }
-            }
-        ]
-    },
-    {
-        "date": "2025-03-29",
-        "dining_hall": "McConnel",
-        "meal": "Dinner",
-        "items": [
-            {
-                "name": "Vegan Curry",
-                "category": "vegan",
-                "nutrition": { "calories": 400 }
-            },
-            {
-                "name": "Rice Noodles",
-                "category": "gluten-free",
-                "nutrition": { "calories": 350 }
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 250,
+                    "protein": 10,
+                    "carbs": 18,
+                    "fat": 14
+                }
             }
         ]
     },
     {
         "date": "2025-03-30",
-        "dining_hall": "Collins",
+        "dining_hall": "Frank",
         "meal": "Brunch",
         "items": [
             {
-                "name": "Falafel Wrap",
+                "name": "Eggs Benedict",
                 "category": "halal",
-                "nutrition": { "calories": 420 }
+                "meal_station": "Expo Station",
+                "nutrition": {
+                    "calories": 520,
+                    "protein": 22,
+                    "carbs": 40,
+                    "fat": 28
+                }
             },
             {
-                "name": "Tabbouleh Salad",
+                "name": "Fruit Medley",
+                "category": "vegan",
+                "meal_station": "Desserts",
+                "nutrition": {
+                    "calories": 180,
+                    "protein": 3,
+                    "carbs": 38,
+                    "fat": 1
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-30",
+        "dining_hall": "Malott",
+        "meal": "Brunch",
+        "items": [
+            {
+                "name": "Avocado Toast",
+                "category": "vegan",
+                "meal_station": "Grill Station",
+                "nutrition": {
+                    "calories": 320,
+                    "protein": 7,
+                    "carbs": 40,
+                    "fat": 15
+                }
+            },
+            {
+                "name": "Greek Yogurt Bowl",
                 "category": "vegetarian",
-                "nutrition": { "calories": 220 }
+                "meal_station": "Salad Bar",
+                "nutrition": {
+                    "calories": 290,
+                    "protein": 14,
+                    "carbs": 32,
+                    "fat": 6
+                }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-30",
+        "dining_hall": "McConnel",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Steak and Eggs",
+                "category": "halal",
+                "meal_station": "Herbivore",
+                "nutrition": {
+                    "calories": 680,
+                    "protein": 45,
+                    "carbs": 12,
+                    "fat": 42
+                }
+            },
+            {
+                "name": "Spinach Salad",
+                "category": "vegan",
+                "meal_station": "Soup Station",
+                "nutrition": {
+                    "calories": 150,
+                    "protein": 5,
+                    "carbs": 15,
+                    "fat": 7
+                }
             }
         ]
     }
