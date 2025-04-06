@@ -1,0 +1,90 @@
+body {
+    background-color: #F8F4EF !important;
+    color: #b68958;
+    font-family: serif;
+}
+body h1, h2, h3, h4, h5, h6 {
+    color: #b68958;
+    font-family: serif;
+}
+
+h1 {
+    white-space: nowrap;
+    display: inline-block;
+    font-family: serif;
+}
+
+div.stText {
+    color: #b68958 !important;
+    font-size: 1.25rem;
+    font-style: bold !important;
+    font-family: serif;
+}
+
+/* Sidebar container styling */
+[data-testid="stSidebar"] {
+    background-color: #4f8267 !important; 
+    color: #F8F4EF !important;
+    font-family: serif;
+    padding: 1rem;
+}
+
+/* Sidebar header styling */
+[data-testid="stSidebar"] h2 {
+    color: #F8F4EF;
+    font-weight: bold;
+    font-size: 2.5rem; 
+    font-family: serif;
+    margin-bottom: -1rem;
+}
+
+/* Sidebar subheader styling */
+[data-testid="stSidebar"] h3 {
+    color: #F8F4EF;
+    font-weight: bold;
+    font-size: 1.5rem; 
+    font-family: serif;
+    margin-bottom: 0rem; 
+}
+
+[data-testid="stSidebar"] .stSelectbox label {
+    color: #F8F4EF !important; 
+    font-family: serif; 
+    font-size: 0rem !important; 
+    font-weight: bold; 
+}
+
+/* Dropdown menu styling */
+[data-testid="stSidebar"] .stSelectbox div[role="combobox"] {
+    background-color: #4f8267 !important;
+    color: black !important; 
+    border-radius: 10px; 
+    font-family: serif;
+    padding: 0.5rem;
+}
+
+/* Dropdown options styling */
+[data-testid="stSidebar"] .stSelectbox ul[role="listbox"] {
+    background-color: #4f8267  !important; 
+    color: black !important; 
+    font-family: serif;
+    border-radius: 10px;
+}
+
+
+[data-testid="stExpander"] div[role="button"] {
+    background-color: #F8F4EF !important; /* Background color for the header */
+    color: #b68958 !important; /* Text color for the header */
+    font-size: 1.5rem !important; /* Font size for the header */
+    font-weight: bold !important; /* Bold text */
+    font-family: serif !important; /* Font family */
+    border-radius: 10px !important; /* Rounded corners */
+    padding: 0.5rem !important; /* Padding inside the header */
+    margin-bottom: 0.5rem !important; /* Spacing between expanders */
+}
+
+/* Style for the expander header (when expanded) */
+[data-testid="stExpander"] div[aria-expanded="true"] {
+    background-color: #e6d3c5 !important; /* Background color when expanded */
+    color: #b68958 !important; /* Text color when expanded */
+}

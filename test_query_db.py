@@ -61,7 +61,7 @@ collection = client.collections.get("Hoch_Menu_Test")
 #     print(obj.properties["name"])
 response = collection.generate.near_text(
     query="I am in the mood for asian food today",
-    grouped_task="You are a helpful assistant that suggests meals based on the user's preferences. Based on these menu items. Include the dining hall, nutritional information, and why it's a good choice.",
+    grouped_task="You are a helpful assistant that suggests meals based on the user's preferences. Based on these menu items. Include the dining hall, nutritional information, and why it's a good choice, encourage the user to try plant based options.",
     limit=1
 )
 print(response.generative.text)
