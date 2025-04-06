@@ -106,29 +106,32 @@ with st.sidebar.expander("💬 Chat with DiningBot", expanded=True):
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    # Display all previous messages (before input)
-    for message in st.session_state.messages:
-        css_class = "user-msg" if message["role"] == "user" else "bot-msg"
-        st.markdown(f"<div class='{css_class}'>{message['content']}</div>", unsafe_allow_html=True)
-
     # Input field (always stays at the bottom)
     prompt = st.chat_input("Ask about meals, nutrition, or dining...")
+    
+    # Process new user input
     if prompt:
         # Store user message
         st.session_state.messages.append({"role": "user", "content": prompt})
-
-        # Correct query for Weaviate near-text search
-    response = collection.generate.near_text(
-        query = prompt,
-        grouped_task = "You are a helpful assistant that suggests meals based on the user's preferences. Based on these menu items. Include the dining hall, nutritional information, and why it's a good choice, encourage the user to try plant based options.",
-        limit = 1
-    )
-
-    # Extract the relevant response and display it
-    bot_reply = response.generative.text # Adjust if your response structure is different
-
-        # Store assistant response
-    st.session_state.messages.append({"role": "assistant", "content": bot_reply})
+        
+        # Process with Weaviate
+        response = collection.generate.near_text(
+            query = prompt,
+            grouped_task = "You are a helpful assistant that suggests meals based on the user's preferences. Based on these menu items. Include the dining hall, nutritional information, and why it's a good choice, encourage the user to try plant based options.",
+            limit = 1
+        )
+        
+        # Extract and store assistant response
+        bot_reply = response.generative.text
+        st.session_state.messages.append({"role": "assistant", "content": bot_reply})
+        
+        # Force refresh to show new messages immediately
+        st.rerun()
+    
+    # Display all messages (after potentially updating them)
+    for message in st.session_state.messages:
+        css_class = "user-msg" if message["role"] == "user" else "bot-msg"
+        st.markdown(f"<div class='{css_class}'>{message['content']}</div>", unsafe_allow_html=True)
 
 
 
