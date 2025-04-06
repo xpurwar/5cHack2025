@@ -1,0 +1,257 @@
+[
+    {
+        "date": "2025-03-25",
+        "dining_hall": "Collins",
+        "meal": "Breakfast",
+        "items": [
+            {
+                "name": "Avocado Toast",
+                "category": "vegetarian",
+                "nutrition": { "calories": 300 }
+            },
+            {
+                "name": "Fruit Smoothie",
+                "category": "vegan",
+                "nutrition": { "calories": 150 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-25",
+        "dining_hall": "Hoch",
+        "meal": "Lunch",
+        "items": [
+            {
+                "name": "Grilled Chicken Sandwich",
+                "category": "halal",
+                "nutrition": { "calories": 450 }
+            },
+            {
+                "name": "Garden Salad",
+                "category": "vegetarian",
+                "nutrition": { "calories": 120 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-25",
+        "dining_hall": "Frary",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Tofu Stir Fry",
+                "category": "vegan",
+                "nutrition": { "calories": 350 }
+            },
+            {
+                "name": "Quinoa Salad",
+                "category": "gluten-free",
+                "nutrition": { "calories": 300 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-26",
+        "dining_hall": "Oldenborg",
+        "meal": "Breakfast",
+        "items": [
+            {
+                "name": "Egg Muffin",
+                "category": "vegetarian",
+                "nutrition": { "calories": 320 }
+            },
+            {
+                "name": "Oatmeal",
+                "category": "gluten-free",
+                "nutrition": { "calories": 280 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-26",
+        "dining_hall": "Frank",
+        "meal": "Lunch",
+        "items": [
+            {
+                "name": "Falafel Wrap",
+                "category": "halal",
+                "nutrition": { "calories": 400 }
+            },
+            {
+                "name": "Hummus Plate",
+                "category": "vegan",
+                "nutrition": { "calories": 200 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-26",
+        "dining_hall": "Malott",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Pasta Primavera",
+                "category": "vegetarian",
+                "nutrition": { "calories": 480 }
+            },
+            {
+                "name": "Grilled Salmon",
+                "category": "halal",
+                "nutrition": { "calories": 500 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-27",
+        "dining_hall": "McConnel",
+        "meal": "Breakfast",
+        "items": [
+            {
+                "name": "Smoothie Bowl",
+                "category": "vegan",
+                "nutrition": { "calories": 290 }
+            },
+            {
+                "name": "Whole Grain Toast",
+                "category": "gluten-free",
+                "nutrition": { "calories": 140 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-27",
+        "dining_hall": "Collins",
+        "meal": "Lunch",
+        "items": [
+            {
+                "name": "Veggie Burger",
+                "category": "vegan",
+                "nutrition": { "calories": 420 }
+            },
+            {
+                "name": "Side Salad",
+                "category": "vegetarian",
+                "nutrition": { "calories": 110 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-27",
+        "dining_hall": "Hoch",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Lentil Curry",
+                "category": "vegan",
+                "nutrition": { "calories": 360 }
+            },
+            {
+                "name": "Rice Pilaf",
+                "category": "gluten-free",
+                "nutrition": { "calories": 250 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Frary",
+        "meal": "Breakfast",
+        "items": [
+            {
+                "name": "Pancakes",
+                "category": "vegetarian",
+                "nutrition": { "calories": 600 }
+            },
+            {
+                "name": "Fruit Parfait",
+                "category": "gluten-free",
+                "nutrition": { "calories": 280 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Oldenborg",
+        "meal": "Lunch",
+        "items": [
+            {
+                "name": "Chicken Salad",
+                "category": "halal",
+                "nutrition": { "calories": 450 }
+            },
+            {
+                "name": "Quinoa Bowl",
+                "category": "vegan",
+                "nutrition": { "calories": 320 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-28",
+        "dining_hall": "Frank",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Spaghetti Marinara",
+                "category": "vegetarian",
+                "nutrition": { "calories": 500 }
+            },
+            {
+                "name": "Garlic Bread",
+                "category": "gluten-free",
+                "nutrition": { "calories": 250 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-29",
+        "dining_hall": "Malott",
+        "meal": "Brunch",
+        "items": [
+            {
+                "name": "Vegan Tofu Benedict",
+                "category": "vegan",
+                "nutrition": { "calories": 450 }
+            },
+            {
+                "name": "Avocado Toast",
+                "category": "gluten-free",
+                "nutrition": { "calories": 300 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-29",
+        "dining_hall": "McConnel",
+        "meal": "Dinner",
+        "items": [
+            {
+                "name": "Vegan Curry",
+                "category": "vegan",
+                "nutrition": { "calories": 400 }
+            },
+            {
+                "name": "Rice Noodles",
+                "category": "gluten-free",
+                "nutrition": { "calories": 350 }
+            }
+        ]
+    },
+    {
+        "date": "2025-03-30",
+        "dining_hall": "Collins",
+        "meal": "Brunch",
+        "items": [
+            {
+                "name": "Falafel Wrap",
+                "category": "halal",
+                "nutrition": { "calories": 420 }
+            },
+            {
+                "name": "Tabbouleh Salad",
+                "category": "vegetarian",
+                "nutrition": { "calories": 220 }
+            }
+        ]
+    }
+]
